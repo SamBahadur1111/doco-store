@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --bg: #f8faf4; --foreground: #101828; --muted: #607080; --card: #ffffff; }
+.dark { --bg: #0b1110; --foreground: #f3f7ed; --muted: #a8b5aa; --card: #111b18; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--bg); color: var(--foreground); transition: background .3s ease, color .3s ease; }
+::selection { background: #d7ff45; color: #101828; }
+.font-display { font-family: var(--font-space); }
+.text-muted { color: var(--muted); }
+.bg-card { background: var(--card); }
+.grid-pattern { background-image: linear-gradient(rgba(16,24,40,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(16,24,40,.06) 1px, transparent 1px); background-size: 32px 32px; }
+.dark .grid-pattern { background-image: linear-gradient(rgba(215,255,69,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(215,255,69,.06) 1px, transparent 1px); }
+@keyframes float { 0%,100% { transform: translateY(0) rotate(2deg); } 50% { transform: translateY(-13px) rotate(-2deg); } }
+@keyframes marquee { to { transform: translateX(-50%); } }
+.animate-float { animation: float 5s ease-in-out infinite; }
+.marquee-track { animation: marquee 25s linear infinite; width: max-content; }
+.reveal { animation: reveal .7s ease both; }
+@keyframes reveal { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
