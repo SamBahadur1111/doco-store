@@ -3,7 +3,7 @@ import { ArrowRight, ShoppingBag } from 'lucide-react';
 import { Header, Footer, WhatsAppFloat } from '../components/site-chrome';
 
 const products = [
-  { slug: 'nepal-home-jersey', name: 'Nepal Home Jersey', type: 'Jerseys', price: 'Rs. 1,499', image: 'https://commons.wikimedia.org/wiki/File:Red_jersey_of_Nepali_football_team.jpg', tag: 'Fan favourite' },
+  { slug: 'nepal-home-jersey', name: 'Arsenal home jersey ', type: 'Jerseys', price: 'Rs. 1,499', image: 'https://images.unsplash.com/photo-1577212017184-80cc0da11082?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', tag: 'Fan favourite' },
   { slug: 'midnight-striker', name: 'Midnight Striker', type: 'Jerseys', price: 'Rs. 1,299', image: 'https://images.unsplash.com/photo-1526232761682-d26e03ac148e?auto=format&fit=crop&w=900&q=85', tag: 'New drop' },
   { slug: 'speedforce-elite', name: 'Speedforce Elite', type: 'Boots', price: 'Rs. 4,999', image: 'https://images.unsplash.com/photo-1553778263-73a83bab9b0c?auto=format&fit=crop&w=900&q=85', tag: 'Game changer' },
   { slug: 'street-play-boot', name: 'Street Play Boot', type: 'Boots', price: 'Rs. 3,499', image: 'https://images.unsplash.com/photo-1511886929837-354d827aae26?auto=format&fit=crop&w=900&q=85', tag: 'Best value' },
